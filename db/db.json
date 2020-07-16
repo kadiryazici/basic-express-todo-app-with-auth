@@ -8,12 +8,17 @@
         {
           "id": "26c86357-c6e2-4846-8249-cdec0a5447b7",
           "isDone": true,
-          "text": "Bir kilo domates al."
+          "text": "Bir kilo domates al ama alırken dikkat et ki düşürme çünkü düşürürsen bir çok şey zarar görebilir aman evladım zarar görmesinler :D"
         },
         {
           "id": "ec82bac1-04f8-4b23-943c-d99ee077b72b",
-          "isDone": true,
+          "isDone": false,
           "text": "Yarın eve gelirken fırından bir adet ekmek almayı unutma"
+        },
+        {
+          "id": "ec82bxc1-0ff8-4b23-943c-d99ee077b72b",
+          "isDone": false,
+          "text": "Selamlar Ben yeniyim"
         }
       ]
     }

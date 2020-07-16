@@ -20,7 +20,7 @@ $ npm run start
 | :------: | ------ | ----- | :-----: | :-----: | :----: |
 | <br>`POST`<br><br> | Login | /login | `username`<br> `password`  | `-` | `id` |
 | <br>`POST`<br><br> | SignUp | /signup | `username`<br> `password` | `-` | `id` | 
-| <br>`POST`<br><br> | Add Todo | /add | `text` | `authorization: id` | `-` | 
+| <br>`POST`<br><br> | Add Todo | /add | `text` | `authorization: id` | `id`<br> `isDone`<br> `text` | 
 | <br>`GET`<br><br> | Get Todos | /todos | `-` | `authorization: id` |  `id`<br> `isDone`<br> `text` | 
 | <br>`PUT`<br><br> | Update Todo | /update | `id`<br> `isDone: Boolean` | `authorization: id` | `id`<br> `isDone`<br> `text` | 
 | <br>`DELETE`<br><br> | Delete Todo | /delete | `id` | `authorization: id` | `-` | 
