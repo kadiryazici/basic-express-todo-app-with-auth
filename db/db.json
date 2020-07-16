@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "name": "kadir",
+      "password": "budasifrem",
+      "id": "18a7c29b-ffea-4bd2-b2bb-554894d0b003",
+      "todos": [
+        {
+          "id": "26c86357-c6e2-4846-8249-cdec0a5447b7",
+          "isDone": true,
+          "text": "Bir kilo domates al."
+        },
+        {
+          "id": "ec82bac1-04f8-4b23-943c-d99ee077b72b",
+          "isDone": true,
+          "text": "Yarın eve gelirken fırından bir adet ekmek almayı unutma"
+        }
+      ]
+    }
+  ]
+}
