@@ -9,6 +9,7 @@
 
 ```sh
 $ git clone https://github.com/kadiryazici/basic-express-todo-app-with-auth.git
+$ cd basic-express-todo-app-with-auth
 $ npm install
 $ npm run start
 ```
