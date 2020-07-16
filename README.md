@@ -17,9 +17,9 @@ $ npm run start
 
 | Type | Name | Location | Body | Headers | Returns [{}] |
 | :------: | ------ | ----- | :-----: | :-----: | :----: |
-| `POST` | Login | /login | `username`<br> `password`  | `-` | `id` |
-| `POST` | SignUp | /signup | `username`<br> `password` | `-` | `id` | 
-| `POST` | Add Todo | /add | `todo.text` | `authorization: id` | `-` | 
-| `GET` | Get Todos | /todos | `-` | `authorization: id` |  `todo.id`<br> `todo.isDone`<br> `todo.text` | 
-| `PUT` | Update Todo | /update | `todo.id`<br> `todo.isDone` | `authorization: id` | `todo.id`<br> `todo.isDone`<br> `todo.text` | 
-| `DELETE` | Delete Todo | /delete | `todo.id` | `authorization: id` | `-` | 
+| <br>`POST`<br><br> | Login | /login | `username`<br> `password`  | `-` | `id` |
+| <br>`POST`<br><br> | SignUp | /signup | `username`<br> `password` | `-` | `id` | 
+| <br>`POST`<br><br> | Add Todo | /add | `todo.text` | `authorization: id` | `-` | 
+| <br>`GET`<br><br> | Get Todos | /todos | `-` | `authorization: id` |  `todo.id`<br> `todo.isDone`<br> `todo.text` | 
+| <br>`PUT`<br><br> | Update Todo | /update | `todo.id`<br> `todo.isDone` | `authorization: id` | `todo.id`<br> `todo.isDone`<br> `todo.text` | 
+| <br>`DELETE`<br><br> | Delete Todo | /delete | `todo.id` | `authorization: id` | `-` | 
