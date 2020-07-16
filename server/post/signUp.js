@@ -16,7 +16,7 @@ export default (req, res) => {
                     todos: []
                 }).write();
 
-                res.status(200).send(JSON.stringify({ status: "success", id }));
+                res.status(200).send(JSON.stringify({ id }));
             } catch (error) {
                 res.status(401).send('{ status: "error" }');
             }

@@ -5,7 +5,7 @@ export default (req, res) => {
     if (body.username && body.password) {
         const isUser = db.get('users').find({ name: body.username }).value();
         if (isUser) {
-            res.status(200).send(JSON.stringify({ status: "success", id: isUser.id }))
+            res.status(200).send(JSON.stringify({ id: isUser.id }))
         } else {
             res.status(401).send(JSON.stringify({ status: "wrong password or username" }));
         }
