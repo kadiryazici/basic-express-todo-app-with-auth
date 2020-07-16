@@ -19,7 +19,7 @@ export default (req, res) => {
                     })
                     .write();
 
-                res.status(401).send('{ status: "success" }');
+                res.status(200).send('{ status: "success" }');
             } catch (error) {
                 res.status(401).send('{ status: "error" }');
             }

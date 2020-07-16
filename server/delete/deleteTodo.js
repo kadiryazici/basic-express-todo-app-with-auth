@@ -14,7 +14,7 @@ export default (req, res) => {
                     .remove({ id: body.id })
                     .write();
 
-                res.status(401).send('{ status: "success" }');
+                res.status(200).send('{ status: "success" }');
             } catch (error) {
                 res.status(401).send('{ status: "error" }')
             }

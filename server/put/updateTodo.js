@@ -20,7 +20,7 @@ export default (req, res) => {
                 .find({ id: body.id })
                 .value();
 
-            res.status(401).send(JSON.stringify(sendData));
+            res.status(200).send(JSON.stringify(sendData));
         } else {
             res.status(401).send('{ status: "missing parameters" }');
         }
