@@ -7,7 +7,7 @@ export default (req, res) => {
 
     if (auth && isauth) {
 
-        if (body.id && body.isDone) {
+        if (body.id && body.isDone || !body.isDone) {
             db.get('users')
                 .find({ id: auth })
                 .get('todos').find({ id: body.id })

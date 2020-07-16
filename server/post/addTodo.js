@@ -13,12 +13,17 @@ export default (req, res) => {
                 const value = {
                     id: uuidv4(),
                     isDone: false,
-                    text: body.text
+                    text: body.text,
                 }
                 db.get('users')
                     .find({ id: auth })
                     .get('todos')
-                    .push(value)
+                    .push({
+                        id: value.id,
+                        isDone: value.isDone,
+                        text: value.text,
+                        createdAt: Date.now()
+                    })
                     .write();
 
                 res.status(200).send(JSON.stringify(value));

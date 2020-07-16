@@ -1,24 +1,19 @@
 {
   "users": [
     {
-      "name": "kadir",
-      "password": "budasifrem",
+      "name": "admin",
+      "password": "admin",
       "id": "18a7c29b-ffea-4bd2-b2bb-554894d0b003",
       "todos": [
         {
           "id": "26c86357-c6e2-4846-8249-cdec0a5447b7",
           "isDone": true,
-          "text": "Bir kilo domates al ama alırken dikkat et ki düşürme çünkü düşürürsen bir çok şey zarar görebilir aman evladım zarar görmesinler :D"
+          "text": "Do not forget to hand out the documents."
         },
         {
           "id": "ec82bac1-04f8-4b23-943c-d99ee077b72b",
           "isDone": false,
-          "text": "Yarın eve gelirken fırından bir adet ekmek almayı unutma"
-        },
-        {
-          "id": "ec82bxc1-0ff8-4b23-943c-d99ee077b72b",
-          "isDone": false,
-          "text": "Selamlar Ben yeniyim"
+          "text": "Buy tomato while going to home."
         }
       ]
     }
