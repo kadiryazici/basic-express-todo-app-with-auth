@@ -1,4 +1,4 @@
-# Basic TODO app with express.js
+# Basic to-do app with express.js
 
   - Used lowdb as database that stores data in json.
   - Really simple authentication but not for production
