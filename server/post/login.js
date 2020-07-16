@@ -3,7 +3,7 @@ import db from "../../db/setUpDb.js";
 export default (req, res) => {
     const body = req.body;
     if (body.username && body.password) {
-        const isUser = db.get('users').find({ name: body.username }).value();
+        const isUser = db.get('users').find({ name: body.username, password: body.password }).value();
         if (isUser) {
             res.status(200).send(JSON.stringify({ id: isUser.id }))
         } else {
