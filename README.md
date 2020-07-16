@@ -20,6 +20,6 @@ $ npm run start
 | `POST` | Login | /login | `username`, `password`  | `-` | `id` |
 | `POST` | SignUp | /signup | `username`, `password` | `-` | `id` | 
 | `POST` | Add Todo | /add | `todo.text` | `authorization: id` | `-` | 
-| `GET` | Get Todos | /todos | `-` | `authorization: id` |  `todo.id`, `todo.isDone`, `todo.text` | 
-| `PUT` | Update Todo | /update | `todo.id`, `todo.isDone` | `authorization: id` | `todo.id`, `todo.isDone`, `todo.text` | 
+| `GET` | Get Todos | /todos | `-` | `authorization: id` |  `todo.id`,<br> `todo.isDone`,<br> `todo.text` | 
+| `PUT` | Update Todo | /update | `todo.id`,<br> `todo.isDone` | `authorization: id` | `todo.id`,<br> `todo.isDone`,<br> `todo.text` | 
 | `DELETE` | Delete Todo | /delete | `todo.id` | `authorization: id` | `-` | 
